@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.env
+
+# Raw and processed datasets
+data/raw/
+data/interim/
+data/processed/
+
+# Model weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Experiment outputs
+runs/
+wandb/
+outputs/
+logs/
+
+# Temporary files
+*.tmp
+*.log
